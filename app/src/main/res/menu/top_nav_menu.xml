@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/people"
+        android:title="Available Connections"
+        android:icon="@drawable/baseline_people_24"/>
+    <item
+        android:id="@+id/explore_list"
+        android:title="Explore LIst"
+        android:icon="@drawable/baseline_card_travel_24"/>
+    <item
+        android:id="@+id/near_me"
+        android:title="Near Me"
+        android:icon="@drawable/baseline_near_me_24"/>
+
+</menu>
