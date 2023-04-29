@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation_explore.xml"
+            app:startDestination = "@+id/people">
+
+    <fragment
+        android:id="@+id/people"
+        android:name="com.example.demo_netclan.explore_fragments.AvailableConnectionsFragment"
+        android:label="People"
+        tools:layout="@layout/fragment_available_connections" />
+
+    <fragment
+        android:id="@+id/explore_list"
+        android:name="com.example.demo_netclan.explore_fragments.ExploreListFragment"
+        android:label="Explore List"
+        tools:layout="@layout/fragment_explore_list" />
+
+    <fragment
+        android:id="@+id/near_me"
+        android:name="com.example.demo_netclan.explore_fragments.NearMeFragment"
+        android:label="Near Me"
+        tools:layout="@layout/fragment_near_me" />
+
+
+
+</navigation>
