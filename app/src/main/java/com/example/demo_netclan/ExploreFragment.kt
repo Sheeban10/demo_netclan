@@ -21,7 +21,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ExploreFragment : Fragment() {
 
-    private lateinit var navController: NavController
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -30,10 +29,10 @@ class ExploreFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_explore, container, false)
 
 
-        navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_top)
-
-        val TopNavigationView = view?.findViewById<BottomNavigationView>(R.id.nav_view_explore)
-        TopNavigationView?.setupWithNavController(navController)
+//        navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_top)
+//
+//        val TopNavigationView = view?.findViewById<BottomNavigationView>(R.id.nav_view_explore)
+//        TopNavigationView?.setupWithNavController(navController)
 
         return view
     }
